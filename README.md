@@ -22,6 +22,14 @@ ssh user@cori.nersc.gov
 
 `git clone git://github.com/doutriaux1/rgma_cdat_tutorial`
 
+I update the repo frequently to get the latest changes you will probably need to revert the changes generated locally by running the notebooks.
+
+```
+cd $HOME/rgma_cdat_tutorial
+git checkout -- . 
+git pull
+```
+
 
 ## Login to Jupyterhub for class
 
